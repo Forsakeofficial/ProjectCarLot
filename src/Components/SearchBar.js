@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { InputGroup, FormControl, Button } from "react-bootstrap";
 
 const SearchBar = ({ getUserWordFunc}) => {
-  const [word, setWord] = useState("");
+  const [word, setWord] = useState();
 
   const userTypedText = (e) => {
     setWord(e.target.value);

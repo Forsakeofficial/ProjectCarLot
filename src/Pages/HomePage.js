@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "../Components/Header";
 import { Container } from "react-bootstrap";
 import SearchBar from "../Components/SearchBar";
-import Catalog from "../Components/Catalog";
+import CarCatalog from "../Components/CarCatalog";
 import Footer from "../Components/Footer";
 import { allCars, searchAddress } from "../api";
 import axios from "axios";
@@ -43,7 +43,7 @@ const HomePage = () => {
         {isLoading ? (
           <Loader />
         ) : (
-          <>{car ? <Catalog car={car} /> : <Loader />}</>
+          <>{car ? <CarCatalog car={car} /> : <Loader />}</>
         )}
       </Container>
       <Footer />
