@@ -1,0 +1,81 @@
+body{
+  background-color: rgba(134, 134, 134, 0.479);
+}
+
+.header {
+  background: linear-gradient(90deg, #041e42 20%, #9b1c2c 100%);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.header h1{
+  text-transform: uppercase;
+  color: white;
+}
+
+.footer {
+  background-color: #303030;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  margin: 30px 0 0px;
+}
+
+.catalog {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.car-card {
+  max-width: 380px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.car-img {
+  width: 340px;
+  height: 250px;
+}
+
+.mt-3 img{
+  width: 360px;
+  height: 250px;
+  border-radius: 2%;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+}
+
+.loader__container {
+  text-align: center;
+}
+
+.loader__container h6 {
+ margin-top: 30px;
+}
+
+.column-car-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.column-car-info div h5{
+  font-size: 16px;
+  color: #120907;
+  font-weight: 700;
+}
+
+.spanClass{
+  color: #155996;
+  font-weight: 700;
+}
